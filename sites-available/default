@@ -1,6 +1,6 @@
 server {
     listen 80 default_server;
-    root /var/www/public/;
+    root /var/www;
 
     access_log /var/log/app.access.log;
     error_log /var/log/app.error.log;
